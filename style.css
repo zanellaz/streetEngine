@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html, body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+div {
+    position: relative;
+    border: solid red 1px;
+    width: 720px;
+    height: 480px;
+}
+
+#frames {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#street {
+    position: absolute;
+    bottom: 0;
+    /* border: 1px solid purple; */
+}
+
+#background {
+    position: absolute;
+    top: 0;
+    /* border: 1px solid purple; */
+}
+img {
+    border: 0;
+    outline: 0;
+    display: none;
+}
